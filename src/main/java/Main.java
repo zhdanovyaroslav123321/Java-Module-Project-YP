@@ -13,7 +13,7 @@ public class Main {
 
             while (true) {
                 System.out.println("— Введите название машины №" + i + ":");
-                name = scanner.nextLine();
+                name = scanner.nextLine();                                          //читаем через nextLine чтобы учесть возможный пустой ввод
                 System.out.println("\n");
                 if (!name.trim().isEmpty()) {
                     break;
